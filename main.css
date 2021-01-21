@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(238, 240, 240);
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+nav a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navlinks ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navlinks .active {
+    background-color: rgb(73, 73, 73);
+}
+
+.navlinks .active a {
+    color: white;
+}
+
+.navlink {
+    display: inline-block;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background: blanchedalmond;
+}
+
+.greetings {
+    border: 1rem ridge magenta;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    padding: 10px 10px;
+}
