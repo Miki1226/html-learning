@@ -2,6 +2,11 @@ body {
     background-color: rgb(238, 240, 240);
 }
 
+img {
+    max-width: 75%;
+    height: auto;
+}
+
 nav {
     border-bottom: 1px solid black;
 }
@@ -39,4 +44,29 @@ nav a {
     margin-right: 25px;
     margin-top: 50px;
     padding: 10px 10px;
+}
+
+aside {
+    width: 35%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    margin-right: 600px;
+    flex-direction: column;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+article>p {
+    font-style: normal, arial;
+    margin-right: 600px;
+    flex-direction: column;
+}
+
+.myosins {
+    float: right;
+}
+
+a:hover {
+    color: grey;
 }
