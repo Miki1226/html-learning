@@ -39,18 +39,20 @@ nav a {
 }
 
 .greetings {
-    border: 1rem ridge magenta;
+    border-style: dashed;
+    border-color: cornflowerblue;
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 50px;
     padding: 10px 10px;
+    text-align: center;
+    font-style: italic, arial;
 }
 
 aside {
     width: 35%;
     padding-left: .5rem;
     margin-left: .5rem;
-    margin-right: 600px;
     flex-direction: column;
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
@@ -59,14 +61,39 @@ aside {
 
 article>p {
     font-style: normal, arial;
-    margin-right: 600px;
     flex-direction: column;
 }
 
 .myosins {
     float: right;
+    height: auto;
+    max-width: 100%;
 }
 
 a:hover {
     color: grey;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.left {
+    width: 65%;
+    background-color: rgb(238, 240, 240);
+}
+
+.right {
+    width: 35%;
+    float: right;
+    background-color: rgb(238, 240, 240);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
